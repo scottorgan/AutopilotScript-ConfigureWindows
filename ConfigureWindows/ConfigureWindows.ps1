@@ -15,7 +15,7 @@ Function CleanUpAndExit() {
     )
 
     # Write results to registry for Detection
-    $Key = "HKEY_LOCAL_MACHINE\Software\Mountainburg\AutoPilot\StartMenu"
+    $Key = "HKEY_LOCAL_MACHINE\Software\Mountainburg\AutoPilot\Configured"
     $NOW = Get-Date -Format "MM/dd/yyyy HH:mm"
 
     If ($ErrorLevel -eq "0") {
