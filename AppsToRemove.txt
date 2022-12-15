@@ -1,7 +1,5 @@
 Clipchamp.Clipchamp
 Microsoft.549981C3F5F10
-Microsoft.BingNews
-Microsoft.BingWeather
 Microsoft.GamingApp
 Microsoft.GetHelp
 Microsoft.Getstarted
