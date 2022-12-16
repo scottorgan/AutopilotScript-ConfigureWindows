@@ -7,6 +7,7 @@ Microsoft.MicrosoftOfficeHub
 Microsoft.MicrosoftSolitaireCollection
 Microsoft.People
 Microsoft.PowerAutomateDesktop
+Microsoft.Todos
 Microsoft.WindowsCommunicationsApps
 Microsoft.WindowsFeedbackHub
 Microsoft.WindowsMaps
