@@ -9,5 +9,9 @@ contained within the script itself.
 It also disables the Chat (Consumer Teams) app which requires modifying a (normally) Read Only registry key.
 
 
-"If you take from one author, it's plagiarism; if you take from many, it's research." -Wilson Mizner
+>"If you take from one author, it's plagiarism; if you take from many, it's research." -Wilson Mizner
+
 This script and the ideas behind it are all largely taken from the works of Nickolaj Anderson, Ben Whitmore and Mike Plichta.
+
+
+<sub>NOTE:  The previous (Windows 10) version of this script has been moved the "Previous Win10 version" folder. 
