@@ -1,17 +1,13 @@
-# Customize Windows 10 during AutoPilot
-#### Powershell script used to remove unwanted UWP Apps and set the default layout of the Start Menu and Taskbar.
+# Customize Windows 11 during AutoPilot
+#### Powershell script used to remove unwanted UWP Apps and configure settings select settings.
 
-*This is mainly here for my own reference, but if somone else stumbles across it, watch out for my district name in the custom registry entry.*
+This script customizes Windows 11's built in UWP Apps.  The list of apps to be removed are downloaded from  
+a .txt file hosted on GitHub, allowing the list to be updated without modifying the actual script.  In the
+event that it fails to get the list from the GitHub repository, it falls back to a predefined list of apps
+contained within the script.
 
- Deployed during AutoPilot as a Win32 app using the Microsoft Content Prep Tool available at: https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool
+It also disables the Chat (Consumer Teams) app which requires modifying a (normally) Read Only registry key.
 
-#### When adding to Intune:
-**Install command:** PowerShell.exe -NoProfile -ExecutionPolicy Bypass -file .\ConfigureWindows.ps1
-**Uninstall command:** (Same as above)
-**Manually configure detection rules**
-**Rule type:** Registry
-**Key Path:** HKEY_LOCAL_MACHINE\Software\Mountainburg\AutoPilot\Configured
-**Value Name:** Success
-**Detection Method:** Value exists
 
-**Update Enrollment Status Page to include script as a required app!**
+"If you take from one author, it's plagiarism; if you take from many, it's research." -Wilson Mizner
+This script and the ideas behind it are all largely taken from the works of Nickolaj Anderson, Ben Whitmore and Mike Plichta.
