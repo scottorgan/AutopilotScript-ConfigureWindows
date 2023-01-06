@@ -218,6 +218,15 @@ Process {
     New-ItemProperty -Path $Path -Name $Name -Value $Value -PropertyType DWORD -Force | Out-Null
     Write-LogEntry -Value "Consumer Features disabled."
     
+    #Then disable Hiberboot/Fast Startup
+    $Path = 'HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Power'
+    $Name = 'HiberbootEnabled'
+    $Value = '0'
+    If (-Not (Test-Path $Path)) {
+        New-Item -Path $Path -Force | Out-Null
+    }
+    New-ItemProperty -Path $Path -Name $Name -Value $Value -PropertyType DWORD -Force | Out-Null
+    Write-LogEntry -Value "Hiberboot/Fast Startup disabled."
     
     # Finally:  Remove desingated UWP Apps
     If ($($BlackListedAppsArray.Count) -ne 0) {
