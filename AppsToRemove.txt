@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Clipchamp.Clipchamp
 Microsoft.549981C3F5F10
 Microsoft.GamingApp
@@ -21,28 +20,4 @@ Microsoft.XboxSpeechToTextOverlay
 Microsoft.YourPhone
 Microsoft.ZuneMusic
 Microsoft.ZuneVideo
-=======
-Clipchamp.Clipchamp
-Microsoft.549981C3F5F10
-Microsoft.GamingApp
-Microsoft.GetHelp
-Microsoft.Getstarted
-Microsoft.MicrosoftOfficeHub
-Microsoft.MicrosoftSolitaireCollection
-Microsoft.People
-Microsoft.PowerAutomateDesktop
-Microsoft.Todos
-Microsoft.WindowsCommunicationsApps
-Microsoft.WindowsFeedbackHub
-Microsoft.WindowsMaps
-Microsoft.WindowsTerminal
-Microsoft.Xbox.TCUI
-Microsoft.XboxGameOverlay
-Microsoft.XboxGamingOverlay
-Microsoft.XboxIdentityProvider
-Microsoft.XboxSpeechToTextOverlay
-Microsoft.YourPhone
-Microsoft.ZuneMusic
-Microsoft.ZuneVideo
->>>>>>> 402c40e20da2f5c15aea478b253bb3bfec7172dd
 MicrosoftTeams
