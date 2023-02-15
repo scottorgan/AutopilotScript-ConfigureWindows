@@ -218,8 +218,6 @@ function Disable-ChatAutoInstall {
     New-RegistryValue -Name "ChatIcon" -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Chat" -Value "3"
     # Disable Windows Consumer Features
     New-RegistryValue -Name "DisableWindowsConsumerFeatures" -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" -Value "1"
-    # Disable Widgets
-    New-RegistryValue -Name "TaskbarDa" -Path ""
     # Disable Hiberboot/Fast Startup
     New-RegistryValue -Name "HiberbootEnabled" -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Power" -Value "0"
     # Remove all Pre-Installed Apps listed in the online $BlockedAppListUrl file
