@@ -11,7 +11,6 @@ Microsoft.Todos
 Microsoft.WindowsCommunicationsApps
 Microsoft.WindowsFeedbackHub
 Microsoft.WindowsMaps
-Microsoft.WindowsTerminal
 Microsoft.Xbox.TCUI
 Microsoft.XboxGameOverlay
 Microsoft.XboxGamingOverlay
