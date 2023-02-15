@@ -12,7 +12,6 @@
 #>
 
 $ScriptVersion = "1"
-$TimeZone = "Central Standard Time"
 $BlockedAppsListUrl = "https://raw.githubusercontent.com/scottorgan/AutoPilotScript/master/AppsToRemove.txt"
 $LogFileName = "AutopilotCustomConfig.log"
 
@@ -96,7 +95,6 @@ function Disable-ChatAutoInstall {
                 Microsoft.WindowsCommunicationsApps
                 Microsoft.WindowsFeedbackHub
                 Microsoft.WindowsMaps
-                Microsoft.WindowsTerminal
                 Microsoft.Xbox.TCUI
                 Microsoft.XboxGameOverlay
                 Microsoft.XboxGamingOverlay
