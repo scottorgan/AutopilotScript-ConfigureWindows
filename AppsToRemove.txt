@@ -5,6 +5,7 @@ Microsoft.GetHelp
 Microsoft.Getstarted
 Microsoft.MicrosoftOfficeHub
 Microsoft.MicrosoftSolitaireCollection
+Microsoft.OutlookForWindows
 Microsoft.People
 Microsoft.PowerAutomateDesktop
 Microsoft.Todos
@@ -20,3 +21,6 @@ Microsoft.YourPhone
 Microsoft.ZuneMusic
 Microsoft.ZuneVideo
 MicrosoftTeams
+MicrosoftCorporationII.QuickAssist
+MicrosoftWindows.CrossDevice
+MSTeams
